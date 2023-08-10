@@ -19,9 +19,11 @@ import {
     starbucks,
     tesla,
     shopify,
+  gd,
     carrent,
     jobit,
     tripguide,
+
     threejs,
   } from "../assets";
   
@@ -46,16 +48,12 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
     },
   ];
   
@@ -116,55 +114,17 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Developer Intern",
+      company_name: "Greendzine",
+      icon: gd,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Feb 2023 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Maintained existing ReactJS websites, including fixing bugs and optimized the websites by reducing the number of API calls by 53%",
+        "Developed Enterprise Application for our clients, notably Delhivery and Zivame.",
+        " Worked with the backend team to develop front-end and back-end architecture thats well structured, along with the APIs to support it.",
         "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Tech-Stack: ReactJS, JavaScript, Redux Toolkit, Git, AntD, TypeScript, NextJS"
       ],
     },
   ];
@@ -219,9 +179,9 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "TurboRent",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Web application that enables organisation for IT Rentals to hire IT rentals based on their need providing a convenient and efficient solution for IT needs. ",
       tags: [
         {
           name: "react",
@@ -232,12 +192,12 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "CSS",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/jaiswalshash/TurboRent",
     },
     {
       name: "Trip Guide",
